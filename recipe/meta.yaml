@@ -1,6 +1,6 @@
 {% set name = "py-rattler" %}
 {% set python_name = "py_rattler" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ python_name }}-{{ version }}.tar.gz
-  sha256: d46ce90f4f449aec199cc2aaf3f2e811899a1de86059dbf85ca4ccae42088353
+  sha256: 3f4c5628e7564192e393c938562619c7041d4244d8bd2535f3be6d1d43999388
 
 build:
-  number: 1
-  skip: true     # [py<38]
+  number: 0
+  skip: true  # [py<38]
 
 outputs:
   - name: py_rattler
@@ -29,7 +29,7 @@ outputs:
       host:
         - python
         - maturin >=1.2.2,<2
-        - pip   
+        - pip
         - openssl       # [unix]     
       run:
         - python
@@ -50,7 +50,7 @@ outputs:
     test:
       imports:
         - rattler
-      
+
 
 about:
   home: https://github.com/mamba-org/rattler
