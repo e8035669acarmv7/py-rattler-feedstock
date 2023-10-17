@@ -3,6 +3,7 @@
 set -ex
 
 echo rustc --version
+export OPENSSL_DIR=$PREFIX
 
 # Run the maturin build via pip which works for direct and
 # cross-compiled builds.
