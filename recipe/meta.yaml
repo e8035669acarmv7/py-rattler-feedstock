@@ -11,7 +11,7 @@ source:
   sha256: 3f4c5628e7564192e393c938562619c7041d4244d8bd2535f3be6d1d43999388
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<38]
 
 outputs:
@@ -20,7 +20,7 @@ outputs:
     script: build_base.bat  # [win]
     requirements:
       build:
-        - python                           # [build_platform != target_platform]
+        - python                                 # [build_platform != target_platform]
         - cross-python_{{ target_platform }}     # [build_platform != target_platform]
         - maturin >=1.2.2,<2                     # [build_platform != target_platform]
         - {{ compiler('c') }}
@@ -30,7 +30,7 @@ outputs:
         - python
         - maturin >=1.2.2,<2
         - pip
-        - openssl       # [unix]     
+        - openssl       # [unix]
       run:
         - python
     test:
