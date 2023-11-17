@@ -1,6 +1,6 @@
 {% set name = "py-rattler" %}
 {% set python_name = "py_rattler" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ python_name }}-{{ version }}.tar.gz
-  sha256: 3f4c5628e7564192e393c938562619c7041d4244d8bd2535f3be6d1d43999388
+  sha256: 548032f278718666f4129b17c5e2a2d4e183ad265ba6f7ebd1a480ce08a2c3f7
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<38]
 
 outputs:
