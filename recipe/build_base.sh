@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -euxo pipefail
 
 echo rustc --version
 export OPENSSL_DIR=$PREFIX
