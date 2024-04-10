@@ -70,6 +70,7 @@ about:
   dev_url: https://github.com/mamba-org/rattler
 
 extra:
+  feedstock-name: py-rattler
   recipe-maintainers:
     - baszalmstra
     - pavelzw
