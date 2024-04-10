@@ -43,6 +43,7 @@ outputs:
   - name: py_rattler
     build:
       noarch: generic
+      skip: true  # [not linux64]
     requirements:
       run:
         - {{ pin_subpackage('py-rattler', max_pin="x.x.x") }}
