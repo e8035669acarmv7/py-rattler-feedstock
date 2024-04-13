@@ -3,46 +3,6 @@ About py-rattler-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-rattler-feedstock/blob/main/LICENSE.txt)
 
-
-About py-rattler
-----------------
-
-Home: https://github.com/mamba-org/rattler
-
-Package license: BSD-3-Clause
-
-Summary: A blazing fast library to work with the conda ecosystem
-
-Development: https://github.com/mamba-org/rattler
-
-Rattler is a library that provides common functionality used within the conda 
-ecosystem. The goal of the library is to enable programs and other libraries to 
-easily interact with the conda ecosystem without being dependent on Python. Its 
-primary use case is as a library that you can use to provide conda related 
-workflows in your own tools.
-
-
-About py_rattler
-----------------
-
-Home: https://github.com/mamba-org/rattler
-
-Package license: BSD-3-Clause
-
-Summary: A blazing fast library to work with the conda ecosystem
-
-Development: https://github.com/mamba-org/rattler
-
-Rattler is a library that provides common functionality used within the conda
-ecosystem. The goal of the library is to enable programs and other libraries to
-easily interact with the conda ecosystem without being dependent on Python. Its
-primary use case is as a library that you can use to provide conda related
-workflows in your own tools.
-
-
-About py-rattler
-----------------
-
 Home: https://github.com/mamba-org/rattler
 
 Package license: BSD-3-Clause
@@ -409,4 +369,5 @@ Feedstock Maintainers
 =====================
 
 * [@baszalmstra](https://github.com/baszalmstra/)
+* [@pavelzw](https://github.com/pavelzw/)
 
